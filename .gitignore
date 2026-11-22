@@ -1,0 +1,20 @@
+# KiCad local state, autosaves and backups
+*.kicad_prl
+*.lck
+*.bak
+*.bck
+*~
+*-backups/
+*_backups/
+_autosave-*
+
+# Local history and superseded root-level packages
+/.history/
+/KELNA-rev*-fab.zip
+/KELNA-rev*-GitHub.zip
+/KELNA-layout-review.pdf
+/KELNA-3D.png
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db

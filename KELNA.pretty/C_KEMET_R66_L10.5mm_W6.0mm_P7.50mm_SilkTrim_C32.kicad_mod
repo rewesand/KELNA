@@ -1,0 +1,190 @@
+(footprint "C_KEMET_R66_L10.5mm_W6.0mm_P7.50mm_SilkTrim_C32"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "KEMET R66DD4220AA6AJ, PET, 7.5 mm lead pitch, body 10.5 x 6 x 12 mm")
+	(property "Reference" "REF**"
+		(at 3.75 4.21115 0)
+		(layer "F.SilkS")
+		(uuid "65e5a56e-2261-48e8-9c8e-ace0d1660d97")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C_KEMET_R66_L10.5mm_W6.0mm_P7.50mm_SilkTrim_C32"
+		(at 3.75 4.8 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d4a33bf8-a4f5-4364-8de6-f2e77be59111")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://content.kemet.com/datasheets/KEM_F3102_R66.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3d85e488-1fb1-4b99-8736-b72c0371bae5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f9418d9-5e18-4143-943e-022f03d7a591")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MPN" "R66DD4220AA6AJ"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a3edaf4d-c9dd-444d-a025-133312b3be7f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "KEMET"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "560fe0f0-f179-466f-8bb3-ad862b3ff4f3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser" "80-R66DD4220AA6AJ"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "031127ee-ea99-49ca-a0cd-61627fd4eaff")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.7 -3.2)
+		(end 9.2 -3.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "81144fe6-3c66-41db-b02f-602277e1930d")
+	)
+	(fp_line
+		(start -1.7 3.2)
+		(end -1.7 -3.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1f4bb771-4219-4bc1-adc3-28ac4ccd86be")
+	)
+	(fp_line
+		(start 0.083477 3.2)
+		(end -1.7 3.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a2daca99-50f9-40c3-a948-4196791a3746")
+	)
+	(fp_line
+		(start 9.2 -3.2)
+		(end 9.2 3.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "428eeff1-8afa-4fc3-9e10-54c17baf0be7")
+	)
+	(fp_line
+		(start 9.2 3.2)
+		(end 1.316523 3.2)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6b216951-1018-4457-aafd-2f728c208ab3")
+	)
+	(fp_rect
+		(start -1.9 -3.35)
+		(end 9.4 3.35)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a1ec8f3c-f142-4057-a4cb-14830a548ee7")
+	)
+	(fp_rect
+		(start -1.5 -3)
+		(end 9 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5bf562d4-aa64-4f83-8d17-7ebcac048eef")
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2.3 2.3)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4aae4b8f-9444-4080-9a21-e9166e554736")
+	)
+	(pad "2" thru_hole circle
+		(at 7.5 0)
+		(size 2.3 2.3)
+		(drill 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c8b2606d-518c-4748-ae42-c68faa0db946")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/KELNA.3dshapes/C_KEMET_R66_L10.5mm_W6.0mm_H12mm_P7.50mm.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

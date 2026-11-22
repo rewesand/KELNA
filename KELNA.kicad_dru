@@ -1,0 +1,8 @@
+(version 1)
+(rule "LT3042 standard 0.5 mm pitch lead lands"
+  (condition "A.Type == 'Pad' && B.Type == 'Pad' && A.Reference == 'U6' && B.Reference == 'U6'")
+  (constraint clearance (min 0.20mm)))
+
+(rule "LT3042 0.5 mm pitch pin escape"
+  (condition "(A.Type == 'Track' && B.Type == 'Pad' && B.Reference == 'U6') || (B.Type == 'Track' && A.Type == 'Pad' && A.Reference == 'U6')")
+  (constraint clearance (min 0.22mm)))
