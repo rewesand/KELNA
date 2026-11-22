@@ -4,17 +4,17 @@ Low-frequency noise preamplifier hardware for precision voltage references and Z
 
 ## PCB routing
 
-Both copper layers are shown below as seen from the component side. **Red tracks run on F.Cu, blue tracks run on B.Cu.** Copper pours are hidden in this view so that individual tracks and layer changes are visible. Click the image for the full-size drawing.
+### Front copper · component side
 
-[![KELNA routing with red front tracks and blue back tracks](docs/images/routing-both.png)](docs/images/routing-both.png)
+Red tracks and the front silkscreen are shown as viewed from the component side. The darker fill is copper pour. Gold rings mark through-hole pads and grey rings mark vias. [Front routing as SVG](docs/images/copper-front.svg)
 
-The individual layer views include the filled copper zones in a darker shade. Gold rings mark through-hole pads and grey rings mark vias. The underside view shows the board flipped left to right.
+[![Red front-layer tracks with the component outlines and silkscreen labels](docs/images/copper-front.png)](docs/images/copper-front.png)
 
-| Front copper · component side | Back copper · physical underside |
-| --- | --- |
-| [![Front copper routing](docs/images/copper-front.png)](docs/images/copper-front.png) | [![Back copper routing](docs/images/copper-back.png)](docs/images/copper-back.png) |
+### Back copper · underside
 
-Vector drawings are available for [both layers](docs/images/routing-both.svg), [front copper](docs/images/copper-front.svg) and [back copper](docs/images/copper-back.svg).
+Blue tracks show the underside with the board flipped left to right. Revision 0.14 has silkscreen on the front only. The component designators in this drawing are a readable overlay aligned with the front-side parts. [Back routing as SVG](docs/images/copper-back.svg)
+
+[![Blue back-layer tracks with component designators in their underside-view positions](docs/images/copper-back.png)](docs/images/copper-back.png)
 
 ## Using the input
 
